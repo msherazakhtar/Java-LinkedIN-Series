@@ -42,7 +42,7 @@ public class ControlFlow {
                 dayName = "Invalid day";
         }
         System.out.println("Day " + day + " is " + dayName);
-
       
+
     }
 }
