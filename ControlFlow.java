@@ -42,6 +42,7 @@ public class ControlFlow {
                 dayName = "Invalid day";
         }
         System.out.println("Day " + day + " is " + dayName);
+        
         // For Loop
         System.out.println("For Loop:");
         for (int i = 1; i <= 5; i++) {
