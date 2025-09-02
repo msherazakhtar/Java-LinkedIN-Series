@@ -9,11 +9,19 @@ public class Methods {
 public Integer addNumbers(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
 }
-    public  void main(String[] args) {
+
+public static void staticMethod(){
+    System.out.println("This is a static method");
+}
+    public static void main(String[] args) {
+        Methods obj = new Methods();
         //Calling method without parameters and return type
-        sayHello();
+        obj.sayHello();
         //Calling method with parameters and return type
-        Integer result = addNumbers(20, 12);
+        Integer result = obj.addNumbers(20, 12);
         System.out.println("The result is: " + result);
+
+        //Calling static method
+        staticMethod();
     }
 }
