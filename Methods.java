@@ -9,7 +9,7 @@ public class Methods {
 public Integer addNumbers(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
 }
-
+// Static method
 public static void staticMethod(){
     System.out.println("This is a static method");
 }
